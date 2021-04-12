@@ -1,0 +1,17 @@
+{
+    "manifest_version" : 2,
+    "name" : "AIOZ Cruiser",
+    "version" : "1.0.0",
+    "description": "AIOZ Cruiser",
+    "permissions": [
+      "https://aioz.tube/*"
+    ],
+    "content_scripts": [
+        {
+          "matches": [
+            "https://aioz.tube/*"
+          ],
+          "js": ["content.js"]
+        }
+    ]
+}
